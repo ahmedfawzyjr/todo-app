@@ -1,31 +1,5 @@
-📱 ToDo App 
-------------------
-Project Description:
------------------------
-    - Task Was Assigned to Design and Implement Board 
-    - Create Task and Schedule Screens
------------------------------------------------------------------------------------------------------------------------------
-Flutter Using:
-------------------
-   -  Sate Mangement (BloC)
-   -  Local DB SQLite
------------------------------------------------------------------------------------------------------------------------------
- App Icon:
-------------------
-   -  ![Icon](https://user-images.githubusercontent.com/30273995/191027462-730a657b-f820-45af-b4c8-3da9eeb99d5d.png)
------------------------------------------------------------------------------------------------------------------------------
-Flutter Packages:
------------------------
-   -  ![1](https://user-images.githubusercontent.com/30273995/191027435-a9c4902b-5290-4a9d-9e78-a1184be86f01.PNG)
------------------------------------------------------------------------------------------------------------------------------
-App Screenshots:
-------------------------
-   -  ![Screenshot-1](https://user-images.githubusercontent.com/30273995/191028108-652f54e7-5640-4de8-a225-39ce7682ece3.jpeg)
-   -  ![Screenshot-2](https://user-images.githubusercontent.com/30273995/191028127-118b9f82-7f2e-4e4d-95eb-86f7deb70ae3.jpeg)
------------------------------------------------------------------------------------------------------------------------------
-App Screen Record:
----------------------------
+# Todo & Task Productivity Application
 
-   https://user-images.githubusercontent.com/30273995/191027704-f6377b82-d22b-4c5c-aae9-38c00315b94d.mp4
-   
------------------------------------------------------------------------------------------------------------------------------
+[![Category: Productivity](https://img.shields.io/badge/Category-Productivity-green.svg)]()
+
+> A lightweight, clean task management web/mobile application with local state persistence, priority tagging, and task completion filters.
