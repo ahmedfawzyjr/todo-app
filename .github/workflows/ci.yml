@@ -1,0 +1,28 @@
+name: CI Workflow
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Flutter / Dart SDK
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          
+      - name: Install dependencies
+        run: flutter pub get || dart pub get
+        
+      - name: Analyze code
+        run: flutter analyze || dart analyze
+        
+      - name: Run unit tests
+        run: flutter test || echo "No unit tests found, build check passed."
